@@ -1,0 +1,948 @@
+Last login: Mon Sep 30 22:49:21 on ttys000
+blackhole:~ illerucis$ julia
+blackhole:~ illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:~ illerucis$ ls
+#.bashrc#				analytics_fun.csv
+#10_mile_break_point.txt#				celery
+#woot#												diff.txt
+10_mile_break_point.txt													erl_crash.dump
+4_mile_bomba.json													   fizzbuzz.py
+Applications (Parallels)												     fizzbuzz.py~
+Desktop	     														         footyenv
+Documents															     footytweets
+Downloads															         geoprocessing_rules_evaluator_test_notes.txt
+ESS																	      geoprocessing_rules_evaluator_test_notes.txt~
+HelloWorld.class															         hskool.txt
+IdeaProjects																	     hskool.txt~
+Library																		          mapnik
+Movies																			       mongodb_core
+Music																			            notes.txt
+Pictures																			        notes.txt~
+Public																					     poker
+QuickUnion.java~																			        pokerdep
+Subset.class																					    signal
+Subset.java~																					        signalenv
+Untitled0.ipynb																						    test
+algs4																							         test.kml
+anaconda																							     usa_equal_area_grid
+analytics
+blackhole:~ illerucis$ cd poker
+blackhole:poker illerucis$ ls
+README.md	handeval.jl
+blackhole:poker illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:poker illerucis$ emacs handeval.jl 
+blackhole:poker illerucis$ emacs ~/.bash_profile
+blackhole:poker illerucis$ emacs handeval.jl 
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs handeval.jl 
+(reverse-i-search)`tar': tar xopf poker-eval_134.0.orig.tar.gz 
+blackhole:poker illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:poker illerucis$ cd ~/Downloads/
+blackhole:Downloads illerucis$ ls
+1-s2.0-S0004370201001308-main.pdf
+2 - 5 - Union-Find Applications (922) (1).txt
+2 - 5 - Union-Find Applications (922).txt
+2013071513130566383517.pdf
+400305_2504089796625_1543360546_n.jpg
+551724_10150903553497432_1604487370_n.jpg
+582075_2206781413839_1358051564_n (1).jpg
+582075_2206781413839_1358051564_n.jpg
+6 - 1 - Mergesort (2354).mp4
+6 - 2 - Bottom-up Mergesort (320).mp4
+6 - 3 - Sorting Complexity (905).mp4
+6 - 4 - Comparators (643).mp4
+6 - 5 - Stability (539).mp4
+6-046j-fall-2005
+6-046j-fall-2005.zip
+7 - 1 - Quicksort (1933).mp4
+7 - 2 - Selection (708).mp4
+7 - 3 - Duplicate Keys (1125).mp4
+7 - 4 - System Sorts (1150).mp4
+9 West 31st Street.pdf
+About Downloads.lpdf
+Adium_1.5.7.dmg
+AdobeFlashPlayerInstaller_11_ltrosxd_aaa_aih.dmg
+Anaconda-1.7.0-MacOSX-x86_64.pkg
+Bathroom 1.jpg
+BinaryDump.class
+BinaryDump.java
+BinaryIn.class
+BinaryIn.java
+BinaryOut.class
+BinaryOut.java
+BinaryStdIn.class
+BinaryStdIn.java
+BinaryStdInTester.class
+BinaryStdInTester.java
+BinaryStdOut.class
+BinaryStdOut.java
+BinaryStdOutTester.class
+BinaryStdOutTester.java
+Census, Investigative Reporters and Editors.kml
+Come Back To You -Jovanie nw FNL ruf.mp3
+Copy.class
+Copy.java
+Decimal places.pptx
+DisplayLink_Installer_1.8.dmg
+Draw.class
+Draw.java
+DrawListener.class
+DrawListener.java
+Emacs-24.3-universal-10.6.8.dmg
+Firefox 23.0.dmg
+Flux.zip
+GoogleEarthMac-Intel.dmg
+HexDump.class
+HexDump.java
+I CAN'T LIE BEAT (CO SIGN)ST5.mp3
+IMG_0612.MOV
+IMG_0614.MOV
+In.class
+In.java
+InTest.txt
+Install Spotify 2.app
+Install Spotify.app
+Jockœôòùs_Nitch_Sporting_Goods_Control_Page_2012_10_17.xlsx
+Julia-0.1.2.dmg
+Kitchen.jpg
+LyX-2.0.6+qt4.dmg
+META-INF
+MacTeX.pkg
+Mathematica_9.0.1_OSX.dmg
+MenuMeters (1).dmg
+MenuMeters.dmg
+MobilePre_USB_Installer_1_8_1_77204.dmg
+My First Application
+My First Application (1).zip
+My First Application.zip
+OptimumAppforLaptop_1.70.dmg
+Out.class
+Out.java
+ParallelsDesktop-8.0.18494.886912.dmg
+Picture.class
+Picture.java
+PictureDump.class
+PictureDump.java
+Programming Assignment 1  Percolation.html
+Programming Assignment 1  Percolation_files
+RDC_2.1.1_ALL.dmg
+Robert Sedgewick and Kevin Wayne - Algorithms, 4th edition.pdf
+Setup.exe
+Shp2kml.exe
+Shp2kml.zip
+Silverlight.dmg
+Skype_6.8.0.351.dmg
+SopCast-1.3.5.dmg
+Spectacle+0.8.2.zip
+SpotifyInstaller (1).zip
+SpotifyInstaller.zip
+StdArrayIO.class
+StdArrayIO.java
+StdAudio.class
+StdAudio.java
+StdDraw.class
+StdDraw.java
+StdDraw3D$1.class
+StdDraw3D$Camera.class
+StdDraw3D$Light.class
+StdDraw3D$Shape.class
+StdDraw3D$Transformable.class
+StdDraw3D$Vector3D.class
+StdDraw3D.class
+StdDraw3D.java
+StdIn.class
+StdIn.java
+StdInTest.class
+StdInTest.java
+StdOut.class
+StdOut.java
+StdRandom.class
+StdRandom.java
+StdStats.class
+StdStats.java
+Stopwatch.class
+Stopwatch.java
+Sublime Text Build 3047.dmg
+TeamViewer.dmg
+Test.class
+Test.java
+TextMate.app
+TextMate_alpha-9443.tbz
+Untitled.rtf
+algs4.app
+algs4.zip
+analytics_fun.csv
+asdf.jpg
+color-theme-6.6.0.tar.gz
+cta.kml
+cv_10
+cv_10.zip
+cv_3 (1).tex
+cv_3.aux
+cv_3.log
+cv_3.out
+cv_3.pdf
+cv_3.synctex.gz
+cv_3.tex
+drjava-stable-20120818-r5686-osx.tar.gz
+duke3d-macosx-12162004.dmg
+duke3d-macosx-12162004.dmg.bz2
+export-preset-stores.csv
+fastkml-master
+fastkml-master.zip
+file_flow
+file_flow.png
+flile_flow.png
+git-1.8.3.2-intel-universal-snow-leopard (1).dmg
+git-1.8.3.2-intel-universal-snow-leopard.dmg
+googlechrome.dmg
+hamsik1.jpg
+ideaIC-12.1.4.dmg
+jre-7u25-macosx-x64.dmg
+julia-0.2-unstable.dmg
+mac-GitHub for Mac 156.zip
+mandrill.jpg
+marekhamsikhigh_ifjhnap7by2r1ciqkokon1hxv.jpg
+maxresdefault.jpg
+missfont.log
+monitor_left.jpg
+monitor_right.jpg
+over_lake_tekapo-wallpaper-5120x1600.jpg
+photo (1).JPG
+photo (2).jpg
+photo.JPG
+poker-eval-134.0
+poker-eval_134.0.orig.tar.gz
+pycharm-2.7.3.dmg
+pycharm-community-3.0.dmg
+relinkerServlet (1).wmv
+relinkerServlet.wmv
+robsicurelliresume.pdf
+stdlib
+stdlib (1).jar
+store_rules
+store_rules (1)
+store_rules (2)
+store_rules.png
+store_rules_with_flag.png
+store_rules_with_flag.png.xml
+test (1).kml
+test (10).kml
+test (11).kml
+test (12).kml
+test (13).kml
+test (14).kml
+test (2).kml
+test (3).kml
+test (4).kml
+test (5).kml
+test (6).kml
+test (7).kml
+test (8).kml
+test (9).kml
+test.kml
+texshop.zip
+text (1).kml
+text (2).kml
+text.kml
+tl_2010_us_state10
+tl_2010_us_state10 2
+tl_2010_us_state10.zip
+toughies.txt
+trade_area_rules_with_flag (1).png
+trade_area_rules_with_flag.png
+trade_area_rules_with_flag.png.xml
+trade_area_rules_without_flag.png
+trade_areas.txt
+untitled.json
+us_states (1).kml
+us_states (2).kml
+us_states (3).kml
+us_states (4).kml
+us_states.kml
+us_states.kml.xml
+blackhole:Downloads illerucis$ tar xopf color-theme-6.6.0.tar.gz 
+blackhole:Downloads illerucis$ cd color-theme-6.6.0
+color-theme-6.6.0/        color-theme-6.6.0.tar.gz  
+blackhole:Downloads illerucis$ cd color-theme-6.6.0/
+AUTHORS                    HACKING                    build-stamp                color-theme.el
+BUGS                       Makefile                   color-theme-autoloads.el   configure-stamp
+COPYING                    Makefile.defs              color-theme-autoloads.elc  themes/
+ChangeLog                  README                     color-theme-autoloads.in   
+blackhole:Downloads illerucis$ cd color-theme-6.6.0/
+blackhole:color-theme-6.6.0 illerucis$ ls
+AUTHORS						Makefile			color-theme-autoloads.elc
+BUGS												Makefile.defs		 color-theme-autoloads.in
+COPYING															   README    color-theme.el
+ChangeLog														   	      build-stamp   configure-stamp
+HACKING																      		      color-theme-autoloads.el themes
+blackhole:color-theme-6.6.0 illerucis$ pwd
+/Users/illerucis/Downloads/color-theme-6.6.0
+blackhole:color-theme-6.6.0 illerucis$ emacs ~/.emacs
+blackhole:color-theme-6.6.0 illerucis$ cd
+blackhole:~ illerucis$ 
+blackhole:~ illerucis$ cd poker
+blackhole:poker illerucis$ ls
+README.md	handeval.jl	handeval.jl~
+blackhole:poker illerucis$ emacds handeval.jl
+-bash: emacds: command not found
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ ls ~/Downloads/color-theme-6.6.0/
+AUTHORS                    HACKING                    build-stamp                color-theme.el
+BUGS                       Makefile                   color-theme-autoloads.el   configure-stamp
+COPYING                    Makefile.defs              color-theme-autoloads.elc  themes/
+ChangeLog                  README                     color-theme-autoloads.in   
+blackhole:poker illerucis$ ls ~/Downloads/color-theme-6.6.0/
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ cd /Users/illerucis/Downloads/color-theme-6.6.0
+blackhole:color-theme-6.6.0 illerucis$ cd
+blackhole:~ illerucis$ ls
+#.bashrc#				analytics_fun.csv
+#10_mile_break_point.txt#				celery
+#woot#												diff.txt
+10_mile_break_point.txt													erl_crash.dump
+4_mile_bomba.json													   fizzbuzz.py
+Applications (Parallels)												     fizzbuzz.py~
+Desktop	     														         footyenv
+Documents															     footytweets
+Downloads															         geoprocessing_rules_evaluator_test_notes.txt
+ESS																	      geoprocessing_rules_evaluator_test_notes.txt~
+HelloWorld.class															         hskool.txt
+IdeaProjects																	     hskool.txt~
+Library																		          mapnik
+Movies																			       mongodb_core
+Music																			            notes.txt
+Pictures																			        notes.txt~
+Public																					     poker
+QuickUnion.java~																			        pokerdep
+Subset.class																					    signal
+Subset.java~																					        signalenv
+Untitled0.ipynb																						    test
+algs4																							         test.kml
+anaconda																							     usa_equal_area_grid
+analytics
+blackhole:~ illerucis$ emacs ~/poker/handeval.jl
+blackhole:~ illerucis$ emacs hello.jl
+blackhole:~ illerucis$ julia hello.jl 
+hello
+blackhole:~ illerucis$ julia
+               _
+   _       _ _(_)_     |  A fresh approach to technical computing
+  (_)     | (_) (_)    |  Documentation: http://docs.julialang.org
+   _ _   _| |_  __ _   |  Type "help()" to list help topics
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 0.2.0-prerelease+3888
+ _/ |\__'_|_|_|\__'_|  |  Commit 9452946 2013-09-30 04:21:55 UTC
+|__/                   |  x86_64-apple-darwin12.5.0
+
+julia> 
+
+
+julia> 
+blackhole:~ illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:~ illerucis$ ls
+#.bashrc#				analytics_fun.csv
+#10_mile_break_point.txt#				celery
+#woot#												diff.txt
+10_mile_break_point.txt													erl_crash.dump
+4_mile_bomba.json													   fizzbuzz.py
+Applications (Parallels)												     fizzbuzz.py~
+Desktop	     														         footyenv
+Documents															     footytweets
+Downloads															         geoprocessing_rules_evaluator_test_notes.txt
+ESS																	      geoprocessing_rules_evaluator_test_notes.txt~
+HelloWorld.class															         hello.jl
+IdeaProjects																	     hskool.txt
+Library																		          hskool.txt~
+Movies																			       mapnik
+Music																			            mongodb_core
+Pictures																			        notes.txt
+Public																					     notes.txt~
+QuickUnion.java~																			        poker
+Subset.class																					    pokerdep
+Subset.java~																					        signal
+Untitled0.ipynb																						    signalenv
+algs4																							         test
+anaconda																							     test.kml
+analytics																							         usa_equal_area_grid
+blackhole:~ illerucis$ cd poker
+blackhole:poker illerucis$ ls
+README.md	handeval.jl	handeval.jl~
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:27
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:22
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:25
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+('2','D')
+('3','S')
+('4','D')
+('5','H')
+('6','C')
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:18
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+('2','D')
+('3','S')
+('4','D')
+('5','H')
+('6','C')
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ 
+blackhole:poker illerucis$ julia handeval.jl
+('2','D')
+('3','S')
+('4','D')
+('5','H')
+('6','C')
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+('2','D')
+('3','S')
+('4','D')
+('5','H')
+('6','C')
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+('2','D')
+('3','S')
+('4','D')
+('5','H')
+('6','C')
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:27
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+2
+3
+4
+5
+6
+
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:23
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:27
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+ERROR: syntax: invalid character literal
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ 
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+ERROR: index not defined
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:26
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+ERROR: index not defined
+ in unpackhand at /Users/illerucis/poker/handeval.jl:17
+ in evalhand at /Users/illerucis/poker/handeval.jl:22
+ in include at boot.jl:238
+ in include_from_node1 at loading.jl:96
+ in process_options at client.jl:275
+ in _start at client.jl:355
+at /Users/illerucis/poker/handeval.jl:27
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ julia handeval.jl
+2
+3
+4
+5
+6
+
+blackhole:poker illerucis$ emacs handeval.jl
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ emacs ~/.emacs
+blackhole:poker illerucis$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blackhole:poker illerucis$ emacs ~/.emacs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File Edit Options Buffers Tools Help                                                                                  
+("emacs" "/Users/illerucis/.emacs")
+Loading encoded-kb...done
+Loading /Users/illerucis/ESS/lisp/ess-site.el (source)...
+Loading regexp-opt...done
+Loading edmacro...done
+Loading cl-macs...done
+enabling speedbar support
+Loading easy-mmode...done
+Loading advice...done
+Finding all versions of R on your system...
+Sorry, no version of R could be found on your system.
+Loading /Users/illerucis/ESS/lisp/ess-site.el (source)...done
+Loading /Users/illerucis/Downloads/color-theme-6.6.0/color-theme.el (source)...
+
+
+An error has occurred while loading `/Users/illerucis/.emacs':
+
+Wrong type argument: stringp, nil
+
+To ensure normal operation, you should investigate and remove the
+cause of the error in your initialization file.  Start Emacs with
+the `--debug-init' option to view a complete error backtrace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uuu:**-F1  *Messages*     All L24    (Fundamental)-------------------------------------------------------------------
+Error in init file: Wrong type argument: stringp, nil
