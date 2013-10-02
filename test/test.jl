@@ -48,7 +48,7 @@ end
 
 facts("Test suite for Poker's hand evaluator") do
     
-    context("Tests the full evaluator via Project Euler #54") do
+    context("Full evaluator run solves Project Euler #54") do
         
         winners, losers = testeuler54()
 
@@ -56,4 +56,21 @@ facts("Test suite for Poker's hand evaluator") do
         @fact losers => 624
 
     end
+
+    context("The Hand type's isless and isequal functions") do
+
+        # full house, 3 2's, 2 3's
+        fullhouse1 = Hand([("2", "D"), ("3", "S"), ("2", "C"), ("2", "H"), ("3", "D")])
+
+        # full house, 3 3's, 2 2's
+        fullhouse2 = Hand([("3", "D"), ("2", "S"), ("3", "C"), ("3", "H"), ("2", "D")])
+
+        @fact true => fullhouse1 < fullhouse2
+        @fact false => fullhouse2 <= fullhouse1
+        @fact false => fullhouse1 == fullhouse2
+        @fact false => fullhouse1 > fullhouse2
+        @fact false => fullhouse1 >= fullhouse2
+
+    end
+
 end

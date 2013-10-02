@@ -26,18 +26,22 @@ function Base.isless(myhand::Hand, otherhand::Hand)
     otherresult = evaluate(otherhand)
 
     return ( myresult[1] < otherresult[1] )  || ( myresult[1] == otherresult[1] && myresult[2] <= otherresult[2] )
+
 end
 
 function Base.isequal(myhand::Hand, otherhand::Hand)
+
+    myresult = evaluate(myhand)
+    otherresult = evaluate(otherhand)
+
     return ( myresult[1] == otherresult[1] ) && ( myresult[2] == otherresult[2] )
 end
 
 function countranks(ranks)
 
-    counts = Dict{Integer, Integer}()
+    counts = Dict()
 
     for rank in ranks
-
         if haskey(counts, rank)
             counts[rank] += 1
         else
@@ -75,7 +79,7 @@ function evaluate(h::Hand)
              
     # Unpack hand
     ranks = [search("-23456789TJQKA", rank) for (rank, suit) in h.hand]
-    
+
     # group counts and ranks
     counts, ranks = groupranks(ranks)
     
