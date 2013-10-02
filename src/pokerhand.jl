@@ -1,36 +1,35 @@
-module PokerHand
+# hands something like [('2', 'D'), ('3', 'S'), ('4', 'D'), ('5', 'H'), ('6', 'C')]
+#
+# straight flush - 9
+# four of a kind - 8
+# full house - 7
+# flush - 6
+# straight - 5
+# three of a kind - 4
+# two pair - 3
+# one pair - 2
+# high card - 1
+#
+# group cards by numbers, separately test for flush and straight
+# ((4, 1), (6, 2)) = (counts, ranks)
+# reads like "there are four cards of rank 6, 1 card of rank 2"
 
-#     hands something like [('2', 'D'), ('3', 'S'), ('4', 'D'), ('5', 'H'), ('6', 'C')]
-
-#     straight flush - 9
-#     four of a kind - 8
-#     full house - 7
-#     flush - 6
-#     straight - 5
-#     three of a kind - 4
-#     two pair - 3
-#     one pair - 2
-#     high card - 1
-
-#     group cards by numbers, separately test for flush
-
-
-#     ((4, 1), (6, 2))
-
-#     (4, 1) => 8
-
-export Hand, isgreater, evaluate
+# (4, 1) implies four of a kind 
 
 type Hand
     hand::Array
 end
 
-function isgreater(myhand::Hand, otherhand::Hand)
+function Base.isless(myhand::Hand, otherhand::Hand)
     
     myresult = evaluate(myhand)
     otherresult = evaluate(otherhand)
 
-    return ( myresult[1] > otherresult[1] )  || ( myresult[1] == otherresult[1] && myresult[2] >= otherresult[2] )
+    return ( myresult[1] < otherresult[1] )  || ( myresult[1] == otherresult[1] && myresult[2] <= otherresult[2] )
+end
+
+function Base.isequal(myhand::Hand, otherhand::Hand)
+    return ( myresult[1] == otherresult[1] ) && ( myresult[2] == otherresult[2] )
 end
 
 function countranks(ranks)
@@ -85,6 +84,4 @@ function evaluate(h::Hand)
     isflush = length(keys( {  s => s for (r, s) in h.hand } )) == 1
 
     return max(handspoints[counts], 6*isflush + 5*isstraight), ranks
-end
-    
 end
