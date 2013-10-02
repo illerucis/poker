@@ -1,4 +1,5 @@
-require("handeval.jl")
+module Euler54
+using PokerHand
 
 function createtuplehand(line)
 
@@ -18,16 +19,7 @@ function parseintohands(line)
 
     midway = int(length(line)/2)
     
-    return createtuplehand(strip(line[1:midway])), createtuplehand(strip(line[midway:]))
-    
-end
-
-function player1wins(player1hand, player2hand)
-    
-    p1result = evalhand(player1hand)
-    p2result = evalhand(player2hand)
-
-    return ( p1result[1] > p2result[1] ) || ( p1result[1] == p2result[1] && p1result[2] >= p2result[2] )
+    return Hand(createtuplehand(strip(line[1:midway]))), Hand(createtuplehand(strip(line[midway:])))
     
 end
 
@@ -38,8 +30,8 @@ winners = 0
 while(!eof(pokerhandsfile))
     
     player1hand, player2hand = parseintohands(readline(pokerhandsfile))
-
-    if player1wins(player1hand, player2hand)
+    
+    if isgreater(player1hand, player2hand)
         winners += 1
     end
     
@@ -49,3 +41,4 @@ println("Player 1 wins ", winners, " hands")
 println("Player 2 wins ", 1000-winners, " hands")
 
 close(pokerhandsfile)
+end
