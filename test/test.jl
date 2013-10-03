@@ -98,9 +98,26 @@ facts("Test suite for Poker's hand evaluator") do
         points, ranks = evaluate(straightflush)
         @fact points => 11
         @fact ranks => (12, 11, 10, 9, 8)
-        
+
     end
 
+    context("Test countranks") do
+
+        # countranks
+        @fact {4=>3, 12=>1, 2=>1}  => countranks([4, 12, 4, 2, 4])
+                
+    end
+
+    context("Test groupranks()") do
+
+        expectedcounts, expectedranks = groupranks([4, 12, 4, 2, 4])
+        
+        # groupranks
+        @fact (3, 1, 1) => expectedcounts
+        @fact (4, 12, 2) => expectedranks
+
+    end
+    
     context("Test isless and isequal") do
 
         # full house, 3 2's, 2 3's
